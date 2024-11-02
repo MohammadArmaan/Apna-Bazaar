@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms and Conditions",
@@ -24,7 +25,7 @@ export default function Page() {
           Your privacy and data security are of utmost importance at Apna Bazaar. We are committed to safeguarding your personal information, with robust data protection practices to ensure your data remains secure. 
         </p>
         <p>
-          Our privacy policy outlines our procedures for data collection, usage, and security. We only collect essential information required to complete orders, process payments, and improve our services. For detailed information, please refer to our <a href="/privacy-policy">Privacy Policy</a>.
+          Our privacy policy outlines our procedures for data collection, usage, and security. We only collect essential information required to complete orders, process payments, and improve our services. For detailed information, please refer to our <Link href="/privacy-policy">Privacy Policy</Link>.
         </p>
 
         {/* Wholesale Inquiries Section */}
